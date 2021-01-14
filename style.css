@@ -23,7 +23,7 @@ body{
 }
 .header{
     grid-area: header;
-    background-image: url("header-backimg.jpg");
+    background-image: url("./imgs/header-backimg.jpg");
     color: #680505;
     width: 100vw;
     height: 50vh;
