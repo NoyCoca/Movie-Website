@@ -47,7 +47,7 @@ header{
 .sign{
     background-color: #680505;
     color: white;
-    padding: 15px 60px;
+    padding: 15px 55px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -193,3 +193,30 @@ li{
     overflow: scroll;
     border: 1px solid #ccc;
 }
+
+@media (max-width:359px){
+    .con{
+        display: grid;
+        grid-template-areas: " header header    "
+                             "sidebar moviesmain  "
+                             "sidebar moviesmain  "
+                             "sidebar moviesmain  "
+                             "sidebar moviesmain  "
+                             " foot foot  ";    
+        grid-template-rows: 11% 1fr 1fr 1fr 1fr;
+    }    
+
+}
+
+@media (min-width:360px) and (max-width:700px){
+    .con{
+        display: grid;
+        grid-template-areas: " header header  "
+                             "sidebar moviesmain  "
+                             "sidebar moviesmain   "
+                             "sidebar moviesmain  "
+                             "sidebar moviesmain  "
+                             " foot foot  ";    
+        grid-template-rows: 11% 1fr 1fr 1fr 1fr;
+    }
+
