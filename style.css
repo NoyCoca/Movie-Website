@@ -9,9 +9,8 @@ height: 100%;
                          "sidebar moviesmain moviesmain moviesmain moviesmain "
                          "sidebar moviesmain moviesmain moviesmain moviesmain "
                          "sidebar moviesmain moviesmain moviesmain moviesmain "
-                         " foot foot foot foot foot";
+                         " foot foot foot foot foot";               
 }
-
 
 
 
@@ -218,7 +217,7 @@ li a:hover{
 }
 
 
-@media screen and (max-width:360px){
+@media (max-width:360px){
     .con {
         display: grid;
         grid-template-areas:
@@ -237,7 +236,12 @@ iframe{
 .book{
     display: flex;
     flex-direction: column;
+    
     position: relative;
+}
+.moviesmain{
+    display: flex;
+    flex-direction: column;
 }
 }
 
