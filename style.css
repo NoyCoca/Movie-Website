@@ -161,7 +161,7 @@ li a:hover{
 }
 /* sign in page */
 .form{
-    background-image: url("./imgs/header-backimg.jpg");
+    background-image: url("/imgs/header-backimg.jpg");
 }
 
 .formsign{
@@ -201,7 +201,7 @@ li a:hover{
     justify-content: center;
     list-style-type: none;
     color: rgb(255, 255, 255);
-    background-image: url("./imgs/header-backimg.jpg");
+    background-image: url("/imgs/header-backimg.jpg");
     align-items: center;
     position: sticky;
     bottom: 2px;
