@@ -150,7 +150,6 @@ li a:hover{
 .openimg{
     font-size: 20px;
     width: 400px;
-
     border: #680505 solid 2px;
     margin: 10px;
     
@@ -230,6 +229,15 @@ li a:hover{
             "moviesmain "
             " foot";
         grid-template-rows: 11% 1% 80% 8%;
+}
+iframe{
+    width: 300px;
+    height: 250px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 }
